@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Python environment and build output
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+
+# Local data and API cache
+*.db
+*.sqlite
+*.sqlite3
+
+# Claude docs
+docs/
+CLAUDE.md
+overseer-plan.pdf
